@@ -38,6 +38,11 @@
             "src/scrollbar-style-observer-non-mac.cc",
           ],
         }],  # OS=="linux"
+        ['OS=="freebsd"', {
+          "sources": [
+            "src/scrollbar-style-observer-non-mac.cc",
+          ],
+        }],  # OS=="freebsd"
       ]
     }
   ]
